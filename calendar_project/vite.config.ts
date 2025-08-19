@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "", // ✅ relative paths for Netlify
+  base: "/calendar_project/", // ✅ use your Netlify subdirectory as base
 });
